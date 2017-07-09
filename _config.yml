@@ -1,0 +1,46 @@
+
+host: 127.0.0.1
+port: 4000
+
+
+timezone: Europe/Oslo
+
+# Dependencies
+markdown:       kramdown
+redcarpet:
+    extensions: ['smart']
+
+highlighter:         rouge
+fenced_code_blocks:  true
+
+gems: [jekyll-paginate]
+
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+
+# Setup
+title:            Dyre Haugen            
+tagline:          Betraktninger
+
+#url:              http://dyrehaugen.github.io/jdn
+url:              http://dyrehaugen.ddns.net:81/jdn
+
+paginate:            5
+#baseurl:          /
+baseurl:          /jdn
+
+
+
+
+# About/contact
+author:
+  name:           Dyre Haugen
+  url:            http://dyrehaugen.ddns.net:81/jdn  
+# url:            http://dyrehaugen.github.io/jdn
+  email:          dyrehaugen@gmail.com
+
+# EOF
