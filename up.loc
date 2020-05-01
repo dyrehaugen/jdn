@@ -1,0 +1,4 @@
+./run.build
+rm -rf /var/www/html/jdn/*
+cp -rp _site/* /var/www/html/jdn
+
