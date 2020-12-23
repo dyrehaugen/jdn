@@ -31,7 +31,7 @@ url:              http://dyrehaugen.github.io/jdn
 
 paginate:            5
 #baseurl:          /
-baseurl:          /jdn
+baseurl:          /jdn/
 
 
 
